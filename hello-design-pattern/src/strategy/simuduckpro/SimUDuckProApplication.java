@@ -2,6 +2,8 @@ package strategy.simuduckpro;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.RejectedExecutionHandler;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * 采用了策略模式的鸭子模拟器
